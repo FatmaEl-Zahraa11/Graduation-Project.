@@ -20,8 +20,20 @@
         <h3>User Account</h3>
         <h5>Explore Our Service.</h5>
 
-        <button onclick="Login" > Login </button>
-        <h6> Don't have account ? </h6>  
+       <h2> Hello!</h2> 
+     <h4>Login to Get Started</h4>
+   
+    <div class="Login">
+        <input type="text" id="email " placeholder="✉️Email Address" required>
+        <label for=" email"> </label>
+    </div>
+    <div class="Login">
+        <input type="password" id="Password" placeholder="🔒Password" required>
+        <label for="Password"> </label>
+    </div>
+    <button type="Login button" value="Login button">Login  </button>
+
+        <h5> Don't have account ? </h5>  
         <ul> 
             <li> Sign up</li>
         </ul>
@@ -30,8 +42,21 @@
     <div class="tradesperson">
         <h3>Tradesperson Account</h3>
         <h5>Share Your Business.</h5>
-        <button onclick="Login"> Login</button>
-        <h6> Don't have account ? </h6>  
+
+<h2> Hello!</h2> 
+     <h4>Login to Get Started</h4>
+   
+    <div class="Login">
+        <input type="text" id="email " placeholder="✉️ Email Address" required>
+        <label for=" email"> </label>
+    </div>
+    <div class="Login">
+        <input type="password" id="Password" placeholder="🔒Password" required>
+        <label for="Password"> </label>
+    </div>
+    <button type="Login button" value="Login button">Login  </button>
+
+        <h5> Don't have account ? </h5>  
         <ul> 
             <li> Sign up</li>
         </ul>
@@ -45,3 +70,4 @@
   <script src="script.js"> </script>
 </body>
 </html>
+
