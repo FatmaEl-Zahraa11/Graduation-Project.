@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شغلانتي</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h2>  Hello!  </h2>
+    <h4> Sign up to Get Started </h4>
+    <div class="first_name">
+        <input type="text" id="first_name" placeholder="First Name" required>
+        <label for="first_name"></label>
+    </div>
+
+      <div class="last_name">
+        <input type="text" id="last_name" placeholder="Last Name" required>
+        <label for="last_name"></label>
+    </div>
+
+
+     <div class="s_type">
+        <input type="text" id="s_type" placeholder="Entre Your Craft" required>
+        <label for="s_type"></label>
+    </div>
+
+      <div class="email">
+        <input type="text" id="email" placeholder="✉️Enter Your Email" required>
+        <label for="email"></label>
+    </div>
+
+      <div class="password">
+        <input type="password" id="password" placeholder="🔒Password" required>
+        <label for="password"></label>
+    </div>
+
+     <div class="gender">
+  <input type="radio" id="male" name="gender" value="Male" required>
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label>
+</div>
+
+    <button onclick="signup"> Sign up</button>
+</body>
+</html>
+
