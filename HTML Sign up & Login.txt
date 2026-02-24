@@ -33,10 +33,10 @@
     </div>
     <button type="Login button" value="Login button">Login  </button>
 
-        <h5> Don't have account ? </h5>  
-        <ul> 
-            <li> Sign up</li>
-        </ul>
+         <p>
+         Don't have account? 
+        <a href="">Sign up</a>
+      </p>
     </div>
 
     <div class="tradesperson">
@@ -56,10 +56,10 @@
     </div>
     <button type="Login button" value="Login button">Login  </button>
 
-        <h5> Don't have account ? </h5>  
-        <ul> 
-            <li> Sign up</li>
-        </ul>
+      <p>
+         Don't have account? 
+        <a href="">Sign up</a>
+      </p>
     </div>
   </section>
   <footer>
@@ -70,4 +70,3 @@
   <script src="script.js"> </script>
 </body>
 </html>
-
