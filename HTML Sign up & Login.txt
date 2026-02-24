@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>شغلانتى</title>
+    <title>شغلانتي</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-  <h2>
+     <h2>
     WHICH ACCOUNT IS RIGHT FOR <br> &nbsp;&nbsp;&nbsp;YOU? SELECT AND PROCEED
   </h2>
 
@@ -18,13 +19,29 @@
     <div class="user">
         <h3>User Account</h3>
         <h5>Explore Our Service.</h5>
+
+        <button onclick="Login" > Login </button>
+        <h6> Don't have account ? </h6>  
+        <ul> 
+            <li> Sign up</li>
+        </ul>
     </div>
 
     <div class="tradesperson">
         <h3>Tradesperson Account</h3>
         <h5>Share Your Business.</h5>
+        <button onclick="Login"> Login</button>
+        <h6> Don't have account ? </h6>  
+        <ul> 
+            <li> Sign up</li>
+        </ul>
     </div>
   </section>
-    
+  <footer>
+    <p>
+        &copy; 2026 Graduation Project. All Rights Reserved.
+    </p>
+  </footer>
+  <script src="script.js"> </script>
 </body>
 </html>
