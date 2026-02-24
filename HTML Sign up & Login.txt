@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شغلانتى</title>
+</head>
+<body>
+  <h2>
+    WHICH ACCOUNT IS RIGHT FOR <br> &nbsp;&nbsp;&nbsp;YOU? SELECT AND PROCEED
+  </h2>
+
+  <h4>
+    New account can be added whenever you need.
+  </h4>
+
+  <section class="section">
+    <div class="user">
+        <h3>User Account</h3>
+        <h5>Explore Our Service.</h5>
+    </div>
+
+    <div class="tradesperson">
+        <h3>Tradesperson Account</h3>
+        <h5>Share Your Business.</h5>
+    </div>
+  </section>
+    
+</body>
+</html>
