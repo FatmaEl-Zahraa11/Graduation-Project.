@@ -24,18 +24,18 @@
      <h4>Login to Get Started</h4>
    
     <div class="Login">
-        <input type="text" id="email " placeholder="✉️Email Address" required>
-        <label for=" email"> </label>
+        <input type="text" id="email" placeholder="✉️Email Address" required>
+        <label for="email"> </label>
     </div>
     <div class="Login">
         <input type="password" id="Password" placeholder="🔒Password" required>
         <label for="Password"> </label>
     </div>
-    <button type="Login button" value="Login button">Login  </button>
+    <button type="Submit" value="Submit">Login</button>
 
          <p>
          Don't have account? 
-        <a href="signupuser.html">Sign up</a>
+        <a href="">Sign up</a>
       </p>
     </div>
 
@@ -47,18 +47,18 @@
      <h4>Login to Get Started</h4>
    
     <div class="Login">
-        <input type="text" id="email " placeholder="✉️ Email Address" required>
-        <label for=" email"> </label>
+        <input type="text" id="email" placeholder="✉️ Email Address" required>
+        <label for="email"> </label>
     </div>
     <div class="Login">
         <input type="password" id="Password" placeholder="🔒Password" required>
         <label for="Password"> </label>
     </div>
-    <button type="Login button" value="Login button">Login  </button>
+    <button type="Submit" value="Submit">Login</button>
 
       <p>
          Don't have account? 
-        <a href="signuptradesperson.html">Sign up</a>
+        <a href="">Sign up</a>
       </p>
     </div>
   </section>
@@ -70,5 +70,6 @@
   <script src="script.js"> </script>
 </body>
 </html>
+
 
 
