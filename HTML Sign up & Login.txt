@@ -58,7 +58,7 @@
 
       <p>
          Don't have account? 
-        <a href="">Sign up</a>
+        <a href="signuptradesperson.html">Sign up</a>
       </p>
     </div>
   </section>
@@ -70,4 +70,5 @@
   <script src="script.js"> </script>
 </body>
 </html>
+
 
