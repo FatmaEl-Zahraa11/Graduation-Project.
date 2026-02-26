@@ -1,0 +1,76 @@
+.signup_form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #19468eea;
+    border-radius: 20px;
+    margin-top: 100px;
+    
+}
+
+#first_name,
+#last_name,                                           
+#email,
+#password,
+#s_type {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 0 0 10px 52px;
+
+
+}
+
+body {
+
+    display: flex;
+    height: 100vh;
+     background-color: rgba(22, 70, 127, 0.638);
+}
+
+h2,
+h4 {
+    text-align: center;
+    color: white;
+}
+
+.gender input {
+    margin: 5px 0 5px 52px;
+}
+
+.gender label {
+    color: white;
+
+}
+
+button {
+    width: 60%;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    margin: 0 0 0 82px;
+    background-color: #061b3cea;
+    color: white;
+
+}
+
+.logo {
+    text-align: center;
+    width: 50%;
+    background-color: aliceblue;
+    
+
+
+}
+
+.logo img {
+    width: 80%;
+    height: auto;
+    margin: 20% auto;
+}
+
+form {
+    width: 50%;
+    
+}
