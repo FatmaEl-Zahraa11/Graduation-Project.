@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>شغلانتي</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="signup&login.css"> 
 </head>
 <body>
+  <header>
      <h2>
     WHICH ACCOUNT IS RIGHT FOR <br> &nbsp;&nbsp;&nbsp;YOU? SELECT AND PROCEED
   </h2>
@@ -14,9 +15,10 @@
   <h4>
     New account can be added whenever you need.
   </h4>
-
+  </header>
   <section class="section">
     <div class="user">
+      <div class="icon">👤</div>
         <h3>User Account</h3>
         <h5>Explore Our Service.</h5>
 
@@ -40,6 +42,7 @@
     </div>
 
     <div class="tradesperson">
+      <div class="icon">🛠️</div>
         <h3>Tradesperson Account</h3>
         <h5>Share Your Business.</h5>
 
