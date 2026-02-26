@@ -38,6 +38,13 @@
 </div>
 
     <button onclick="signup"> Sign up</button>
+
+<footer>
+    <p>
+        &copy; 2026 Graduation Project. All Rights Reserved.
+    </p>
+  </footer>
+ <script src="script.js"> </script>
 </body>
 </html>
 
