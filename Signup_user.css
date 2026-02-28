@@ -170,7 +170,7 @@ button:hover
 
 
 /* Responsive للموبايل */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     body {
         flex-direction: column;
     }
@@ -182,4 +182,4 @@ button:hover
     .right {
         width: 100%;
     }
-}
+}*/
