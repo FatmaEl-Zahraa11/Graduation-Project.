@@ -9,8 +9,8 @@
 body {
    
     background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('wp.png'); 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        /* url('wp.png');  */
     
     background-size: cover;      
     background-attachment: fixed; 
