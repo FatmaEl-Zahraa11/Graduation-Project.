@@ -2,14 +2,14 @@
     width: 400px;
     margin: auto;
     padding: 20px;
-    background-color: #19468eea;
+    background-color: #40494cea;
     border-radius: 20px;
     margin-top: 100px;
-    
+
 }
 
 #first_name,
-#last_name,                                           
+#last_name,
 #email,
 #password,
 #s_type {
@@ -18,15 +18,27 @@
     border: none;
     border-radius: 15px;
     margin: 0 0 10px 52px;
-
-
+    
 }
 
-body {
+#first_name:hover,
+#last_name:hover,
+#email:hover,
+#password:hover,
+#s_type:hover {
+    background-color: #061b3cea;
+    transition: 0.7s ease;
+}
 
+
+
+
+body {
+    margin: 0px;
     display: flex;
     height: 100vh;
-     background-color: rgba(22, 70, 127, 0.638);
+    background-color: rgba(124, 140, 160, 0.781);
+
 }
 
 h2,
@@ -35,13 +47,29 @@ h4 {
     color: white;
 }
 
+.gender {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 52px;
+}
+
 .gender input {
-    margin: 5px 0 5px 52px;
+    margin: 0 5px 0 0;
 }
 
 .gender label {
-    color: white;
 
+
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+label:hover {
+    color: #061b3c;
+    cursor: pointer;
 }
 
 button {
@@ -50,16 +78,23 @@ button {
     border: none;
     border-radius: 15px;
     margin: 0 0 0 82px;
-    background-color: #061b3cea;
+    background-color: #9cb1d6b6;
     color: white;
 
+}
+
+button:hover {
+    background-color: #061b3c;
+    cursor: pointer;
+     transition: 0.7s ease;
 }
 
 .logo {
     text-align: center;
     width: 50%;
-    background-color: aliceblue;
-    
+    background-color: rgb(77, 96, 112);
+
+
 
 
 }
@@ -67,10 +102,7 @@ button {
 .logo img {
     width: 80%;
     height: auto;
-    margin: 20% auto;
+    margin: 35px auto;
+    border-radius: 40px;
 }
 
-form {
-    width: 50%;
-    
-}
