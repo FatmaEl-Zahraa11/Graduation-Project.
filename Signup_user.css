@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                         /*المساحه على قد المحتوى متكبرش*/
+    font-style: italic;
+}
+
+
+
+html 
+{
+    font-size: clamp(12px, 1vw + 0.5rem, 20px);    /* حد ادنى وحد اقصى واللى ف النص قيمه تدريجيه للحركه */
+} 
+
+
+
+body
+{ 
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: row-reverse;                    /* ده بيعكس اتجاه اليمين والشمال */
+    position: relative;
+    animation: fadeslide 0.8s ease-out;
+}
+
+@keyframes fadeslide{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);               /*الصفحه اول متحمل بتبقى مبكسله شويه وتحت حته صغيره وتبان وتطلع مكانها فوق تانى */                
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+.right .left
+{
+    flex: 1; 
+    display: flex;
+    justify-content: center;                        /*المحتوى يبقى ف النص*/
+    align-items: center;
+}
+
+
+.right
+{
+    width: 48%;
+    /* background-color: rgb(67, 79, 247); */
+     background:linear-gradient(            
+        to left,
+        rgb(67, 79, 247) 98%,                    /*دا الجزء المتعلق بتداخل لونين الصفحه*/
+        #eee7e7 100%);
+    background-size: cover;
+}
+
+
+.left
+{ 
+    width: 52%;
+    /* background-color: #ffffff; */
+    background:linear-gradient(
+        to right,
+         #eee7e7 ,
+         #eee7e7 100%);
+    
+}
+
+
+
+
+
+.user_LoginBox
+{
+
+
+     
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: medium; 
+    margin: 200px;
+    padding: 30px;
+    width: 90%;
+    max-width: 380px;
+    aspect-ratio: 3/4;                               /* يخلى الطول مناسب مع العرض */  
+    transition: all 0.4s;
+
+    /* transform: scale(clamp(0.9, 1vw + 0.9, 1));
+    width: clamp(280px, 35vw, 420px);
+    padding: clamp(1rem, 2vw, 2.5rem); */
+
+    border-radius: 20px;
+    box-shadow: 0 10px 30px                           /* الزيرو يعنى مش هيتحرك يمين وشمال والعشره يعنى الظل نازل تحت عشره بيكسل والتلاتين دى نعوميه الظل  */
+               rgb(0, 0,0,) ;
+}
+
+
+
+
+h2 , h4
+{
+    padding: 0.5rem;
+}
+
+
+input 
+{
+           
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 1px solid #cfcfcf;
+    font-size: 1rem;
+    transition: 0.6 ease;
+}
+
+input:hover,
+input:focus 
+{
+    border-color: #222;
+    transform: scale(1.04);
+}
+
+
+
+
+.gender label
+{
+    padding: 0.5rem;
+    transition: 0.6s ease;
+    font-weight: bold;
+}
+
+.gender:hover
+{
+    transform: scale(1.04);
+}
+
+
+
+
+     
+button 
+{
+    width: 50%;
+    padding: 0.7rem;
+    background: rgb(67, 79, 247);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: 0.3s ease
+}
+
+button:hover
+{
+    background: #d6d5d5;
+    color:  rgb(67, 79, 247);
+     transform: scale(1.04);
+}
+
+
+
+/* Responsive للموبايل */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
