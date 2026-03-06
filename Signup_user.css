@@ -1,9 +1,9 @@
+
 *
 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;                         /*المساحه على قد المحتوى متكبرش*/
-    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -12,7 +12,6 @@ html
 {
     font-size: clamp(12px, 1vw + 0.5rem, 20px);    /* حد ادنى وحد اقصى واللى ف النص قيمه تدريجيه للحركه */
 } 
-
 
 
 body
@@ -24,7 +23,7 @@ body
     min-height: 100vh;
     flex-direction: row-reverse;                    /* ده بيعكس اتجاه اليمين والشمال */
     position: relative;
-    animation: fadeslide 0.8s ease-out;
+    animation: fadeslide 0.5s ease-out;
 }
 
 @keyframes fadeslide{
@@ -37,9 +36,6 @@ body
         transform: translateY(0px);
     }
 }
-
-
-
 
 .right .left
 {
@@ -56,25 +52,29 @@ body
     /* background-color: rgb(67, 79, 247); */
      background:linear-gradient(            
         to left,
-        rgb(67, 79, 247) 98%,                    /*دا الجزء المتعلق بتداخل لونين الصفحه*/
+        #EAE8E5 98%,                    /*دا الجزء المتعلق بتداخل لونين الصفحه*/
         #eee7e7 100%);
     background-size: cover;
 }
 
-
 .left
 { 
     width: 52%;
-    /* background-color: #ffffff; */
-    background:linear-gradient(
+     background-color: #4D6070; 
+    /*background:linear-gradient(
         to right,
          #eee7e7 ,
-         #eee7e7 100%);
-    
+         #eee7e7 100%);*/
+         
 }
 
-
-
+.left img
+{
+    width: 900px;
+    height: 961px;
+    margin: 0;
+    
+}
 
 
 .user_LoginBox
@@ -166,6 +166,14 @@ button:hover
     color:  rgb(67, 79, 247);
      transform: scale(1.04);
 }
+.footer
+{
+    position: absolute;
+    margin-top: 43%;
+    font-size: 1.1rem;
+}
+
+
 
 
 
