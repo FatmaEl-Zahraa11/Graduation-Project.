@@ -116,14 +116,14 @@ header nav ul li a
     justify-content: center; 
     padding: 10px;
     margin-left: 350px;
-    margin-top: -833px;
+    margin-top: -853px;
 }
 
 .profilecard {
     background-color: #f9f9f9;
-    padding: 50px;
-    margin: 10px;
-    width: 1500px;     
+    padding: 20px 50px;
+    margin: 30px;
+    width: 1500px;    
     text-align: left;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -135,24 +135,54 @@ header nav ul li a
     transform: translateY(-5px);
 }
 
-.profilecard .icon {
+.profilecard .icon1 , .icon2 , .icon3 , .icon4   {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color:#ccc ;
     background-size: cover;
     background-position: center;
 }
+.icon1 
+{
+  width:70px;
+  height:70px;
+  background-image: url("Ahmed\ Elsharkawy.png") ;
+  padding: 10px;
+  border-radius:50%;
+  object-fit:cover;
+}
 
-
-.icon.Plumber_1 { background-image: url(''); }
-.icon.Plumber_2 { background-image: url(''); }
-.icon.Plumber_3 { background-image: url(''); }
-.icon.Plumber_4 { background-image: url('');}
+.icon2
+{
+  width:70px;
+  height:70px;
+  background-image: url("Ismaiel\ Elsawy.png") ;
+  padding: 10px;
+  border-radius:50%;
+  object-fit:cover;
+}
+.icon3
+{
+  width:70px;
+  height:70px;
+  background-image: url("Ibrahim\ Ashour.png") ;
+  padding: 10px;
+  border-radius:50%;
+  object-fit:cover;
+}
+.icon4
+{
+  width:70px;
+  height:70px;
+  background-image: url("Mahmoud\ Eldaw.png") ;
+  padding: 10px;
+  border-radius:50%;
+  object-fit:cover;
+}
 
 .profilecard button {
-    padding: 20px;
-    margin-left: 1430px;
+    padding: 25px;
+    margin-left: 1400px;
     border: none;
     background-color: #f3b945;
     color: black;
@@ -165,4 +195,19 @@ header nav ul li a
 
 .profilecard button:hover {
     background-color: #f5e727;
+}
+.profilecard span
+{
+    font-size: 27px;
+}
+
+.profilecard p 
+{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.profilecard h5
+{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
