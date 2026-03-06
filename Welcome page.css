@@ -9,14 +9,13 @@
 body {
    
     background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-        url('wp.png');  
-    
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('wphigher.png');  
     background-size: cover;      
     background-attachment: fixed; 
-    min-height: 100vh;/*عشان دايما تبقى الصفحة ظاهرة كاملة وميتقصش منها حاجة*/
+    min-height: 100vh;
     color: white;
-    overflow-x: hidden; /*دا عشان لو في زيادات برا الصفحة يخفيها وميعملش تحت سكرول بار ويبوظ شكل الصفحة*/
+    overflow-x: hidden; 
 }
 
 
@@ -61,8 +60,8 @@ ul li a:hover {
 }
 
 
-#startbtn {
-    padding: 12px 24px;
+button {
+    padding: 15px 22px;
     font-size: 1.1rem;
     cursor: pointer;
     border: none;
@@ -73,17 +72,20 @@ ul li a:hover {
     transition: transform 0.2s, boxshadow 0.3s;
 }
 
-#startbtn:hover {
+button:hover {
     transform: scale(1.05);
+    background-color: #FCBF36;
+    color: black;
     box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
 }
 
 
+
 footer {
     position: absolute;
-    bottom: 24px;
+    bottom: 10px;
     width: 100%;
     text-align: center;
-    font-size: 0.9rem;
-    opacity: 0.7;
+    font-size: 1.2rem;
+    color: white;
 }
