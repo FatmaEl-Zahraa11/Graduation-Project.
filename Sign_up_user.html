@@ -1,72 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>شغلانتي</title>
-    <link rel="stylesheet" href="signupuser.css"> 
+    <link rel="stylesheet" href="user1.css">
 </head>
-<body >
 
-                                                                                 <!-- Right Part -->
+<body>
+    <div class="logo">                                                                 <!--لوجو الصفحة-->
+        <img src="logo2.png" alt="Logo">
 
- <div class="right" > 
-  <section class="user_LoginBox" >
-    <h2>  Hello!  </h2>
-    <h4> Sign up to Get Started </h4>
-
-    <div class="first_name">
-        <input type="text" id="first_name" placeholder="First Name" required>
-        <label for="first_name"></label>
     </div>
+    <form action="signup.html" class="signup_form">                                 <!--فورم تسجيل بيانات الشخص المتخصص-->
+        <h2> Hello! </h2>
+        <h4> Sign up to Get Started </h4>
+        <div class="first_name">
+            <input type="text" id="first_name" placeholder="First Name" required>
+            <label for="first_name"></label>
+        </div>
 
-      <div class="last_name">
-        <input type="text" id="last_name" placeholder="Last Name" required>
-        <label for="last_name"></label>
-    </div>
-
-      <div class="email">
-        <input type="text" id="email" placeholder="✉️ Enter Your Email" required>
-        <label for="email"></label>
-    </div>
-
-    <div class="password">
-        <input type="password" id="password" placeholder="🔒 Password" required>
-        <label for="password"></label>
-    </div>
-
-    <div class="gender">
-        
-        <input type="radio" id="male" name="gender" value="Male" required>
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="Female">
-        <label for="female">Female</label>
-    </div>
+        <div class="last_name">
+            <input type="text" id="last_name" placeholder="Last Name" required>
+            <label for="last_name"></label>
+        </div>
 
 
-    <button  onclick="location.href='homepage.html'"> Sign up</button>
+        <div class="s_type">
+            <input type="text" id="s_type" placeholder="Entre Your Craft" required>
+            <label for="s_type"></label>
+        </div>
 
-  </section>
- 
-  
- </div>
+        <div class="email">
+            <input type="text" id="email" placeholder="✉️Enter Your Email" required>
+            <label for="email"></label>
+        </div>
 
-  <div class="footer">
- <footer>
-    <p>
-        &copy; 2026 Graduation Project. All Rights Reserved.
-    </p>
-  </footer>
+        <div class="password">
+            <input type="password" id="password" placeholder="🔒Password" required>
+            <label for="password"></label>
+        </div>
 
-</div>
+        <div class="gender">
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
 
-                                                                           <!-- Left Part -->
-
-  <div class="left" >
-    <img src="logoo.jpeg">
-   <!-- Logo & Backgroun -->
-
-  </div>
-  <script src="script.js"> </script>
+        <button onclick="signup"> Sign up</button>
+    </form>
 </body>
+
 </html>
