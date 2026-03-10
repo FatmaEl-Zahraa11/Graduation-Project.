@@ -21,7 +21,7 @@ body {
 
 .signup_form {
     width: 360px;
-    height: 580px;
+    height: 540px;
     padding: 35px;
     background-color: #f3b945;
     border-radius: 20px;
@@ -47,8 +47,7 @@ h4{
 #first_name,
 #last_name,
 #email,
-#password,
-#s_type {
+#password{
     width: 300px;
     padding: 12px;
     margin: 10px 0;
@@ -60,8 +59,7 @@ h4{
 #first_name:hover,
 #last_name:hover,
 #email:hover,
-#password:hover,
-#s_type:hover {
+#password:hover {
     border-color: #222;
     transform: scale(1.02);
     transition: 0.3s;
